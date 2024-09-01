@@ -1,0 +1,27 @@
+let score1= "33sf";
+let score2 = null;
+let score3 = undefined;
+let score4 = true;
+
+console.log(typeof score1);
+
+let newScore = Number(score1);
+
+console.log(typeof newScore);
+console.log(newScore);
+
+score2 = Number(score2);
+score3 = Number(score3);
+score4 = Number(score4);
+
+console.log(score2);
+console.log(score3);
+console.log(score4);
+
+// "33" = 33
+// "33hghj" = NaN
+// true = 1 || false = 0
+// "" => false
+// "ajhd" => true
+
+
