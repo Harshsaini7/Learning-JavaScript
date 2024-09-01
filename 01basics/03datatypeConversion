@@ -24,4 +24,20 @@ console.log(score4);
 // "" => false
 // "ajhd" => true
 
+let str1 = "Harsh";
+let str2 = " Saini";
+
+let str = str1 + str2;
+console.log(str);
+
+console.log("2" + 2);
+console.log(2 + "2");
+console.log("2" + 1 + 1);
+console.log(1 + 2 + "2");
+
+console.log((2*(3+4)) / 7); // good practice
+
+
+
+
 
